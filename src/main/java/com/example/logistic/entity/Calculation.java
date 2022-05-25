@@ -14,7 +14,7 @@ import java.time.LocalDateTime;
 @SuperBuilder
 
 @Entity
-@Table(name = "calculations_history")
+@Table(name = "calculation")
 public class Calculation {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

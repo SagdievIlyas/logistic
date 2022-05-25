@@ -1,12 +1,11 @@
 package com.example.logistic.service.calculation;
 
-import com.example.logistic.dto.CreateCalculationRequest;
+import com.example.logistic.dto.calculation.CreateCalculationRequest;
 import com.example.logistic.entity.Calculation;
 import com.example.logistic.entity.Rate;
 import com.example.logistic.entity.User;
 import com.example.logistic.service.rate.RateService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.data.annotation.Transient;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

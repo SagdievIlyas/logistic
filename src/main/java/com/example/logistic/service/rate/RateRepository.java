@@ -13,7 +13,7 @@ public interface RateRepository extends LongJpaRepository<Rate> {
 
     @Query(nativeQuery = true,
             value = "select * " +
-                    "from rates r " +
+                    "from rate r " +
                     "where r.max_weight >= :weight " +
                     "and r.min_weight < :weight " +
                     "and r.start_date <= current_timestamp " +

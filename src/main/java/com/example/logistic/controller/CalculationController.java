@@ -1,13 +1,11 @@
 package com.example.logistic.controller;
 
 
-import com.example.logistic.dto.CreateCalculationRequest;
+import com.example.logistic.dto.calculation.CreateCalculationRequest;
 import com.example.logistic.entity.User;
 import com.example.logistic.service.calculation.CalculationService;
-import com.example.logistic.service.user.UserRepository;
 import com.example.logistic.service.user.UserService;
 import lombok.RequiredArgsConstructor;
-import org.hibernate.annotations.Parameter;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

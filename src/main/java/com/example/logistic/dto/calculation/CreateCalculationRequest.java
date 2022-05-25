@@ -1,4 +1,4 @@
-package com.example.logistic.dto;
+package com.example.logistic.dto.calculation;
 
 import com.example.logistic.entity.Country;
 import lombok.Getter;
